@@ -1,0 +1,60 @@
+body{background-color: #000;}
+#top{
+	position: relative;
+	z-index: 4;
+}
+#top > h1{
+	margin-left: 180px;
+	color: #FFF;
+}
+#container{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 0;
+}
+#container > .lightning{
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 0;
+}
+#container > #frame{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	width: 545px;
+	height: 629px;
+	background-image: url("../images/frame.jpg");
+	z-index: 2;
+	overflow: hidden;
+}
+#container > #frame > #pic-box{
+	position: relative;
+	left: 91px;
+	top: 84px;
+	width: 367px;
+	height: 460px;
+	z-index: 1;
+	overflow: hidden;
+	justify-content: center;
+}
+#container > #frame > #pic-box > .face{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	z-index: 0;
+}
+#container > #frame > #pic-box >#head{
+	height: 110px;
+}
+#container > #frame > #pic-box >#eyes{
+	height: 110px;
+}
+#container > #frame > #pic-box >#nose{
+	height: 110px;
+}
+#container > #frame > #pic-box >#mouth{
+	height: 100px;
+}

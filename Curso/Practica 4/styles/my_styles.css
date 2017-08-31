@@ -1,0 +1,12 @@
+#header{
+	background-color: #70b926;
+	padding: 15px;
+	color: #FFF;
+	border-radius: 10px;
+}
+#menu_wrapper ul.menu_entrees > li.veg_leaf{
+	list-style-image: url('../images/leaf.jpg');
+}
+#menu_wrapper ul.menu_list > li{
+	list-style-image: none;
+}
